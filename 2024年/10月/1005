@@ -1,1 +1,6 @@
-//java
+//vue.js
+
+〇v-ifとV-showの違い
+・v-ifはfalse時にDOMが生成されない
+・v-showはfalse時にDOMが生成されるが、「display:none」で表示されない
+
