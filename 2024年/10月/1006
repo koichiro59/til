@@ -1,0 +1,22 @@
+//vue
+
+・thisの使い方
+thisはscript内のdata、methods、computedプロパティにアクセスするため使用される
+
+・vueのライフサイクル
+インスタンスの生成 (Creation)
+DOMへのマウント (Mounting)
+データの更新 (Updating)
+破棄 (Unmounting / Destruction)
+
+・DOM
+DOMはHTMLやXMLなどのマークアップ言語を読み解く仕組み
+ブラウザーに描写する際に、HTML→DOM→実際の画面という風に描写する
+
+・atom、component、moduleの使い分けについて
+atom--最小のUI要素で他のコンポーネントには依存せずに独立している
+例)ボタン（Button.vue）、テキストフィールド（Input.vue）
+component--1つ以上のAtomsや他の小さなコンポーネントを組み合わせて、特定のUIの一部分を構成するもの
+例)フォーム（LoginForm.vue）、ナビゲーションバー（Navbar.vue）
+module--複数のコンポーネントを組み合わせてページ全体やビュー全体など、特定の機能を表す
+例)商品リストビュー（ProductListModule.vue）
